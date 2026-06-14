@@ -4455,16 +4455,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 240.03 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf50fe4-397e-4e63-beac-10129f91cd63")
-	)
-	(wire
-		(pts
 			(xy 201.93 88.9) (xy 212.09 88.9)
 		)
 		(stroke
@@ -6041,6 +6031,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 240.03 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31074367-45ca-4b04-81b0-2df9251cc046")
+		(property "Reference" "R11"
+			(at 241.046 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 239.268 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 238.252 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d20160a5-56c3-4e62-8e2f-cd60b47a37a4")
+		)
+		(pin "2"
+			(uuid "73480c08-1206-4fed-b618-fc4605b07afd")
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -7276,84 +7358,6 @@
 			(project "smiw_proj"
 				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 179.07 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77a16f64-7fa5-4f3e-b2ba-ef82d36c9219")
-		(property "Reference" "#PWR07"
-			(at 172.72 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CPU_GND"
-			(at 176.53 51.562 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 179.07 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b33ea56-50ea-4703-b171-484155402e47")
-		)
-		(instances
-			(project "smiw_proj"
-				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8609,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 240.03 86.36 0)
+		(at 240.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8620,7 +8624,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1b309fd-99b5-4ede-88eb-b555caa3dff4")
 		(property "Reference" "#PWR017"
-			(at 240.03 92.71 0)
+			(at 240.03 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +8635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 90.17 0)
+			(at 240.03 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8641,7 +8645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 86.36 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 86.36 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 240.03 86.36 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,6 +9103,83 @@
 			(project "smiw_proj"
 				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 179.07 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c69c55f1-e68b-4885-8b4f-8e27b38e3381")
+		(property "Reference" "#PWR056"
+			(at 172.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CPU"
+			(at 171.704 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6866728b-3d5b-4bb2-9185-efa4bd98ea50")
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
