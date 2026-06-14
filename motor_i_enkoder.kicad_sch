@@ -1960,6 +1960,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Motor_DC"
 			(pin_names
 				(offset 0)
@@ -3221,7 +3320,7 @@
 		)
 		(uuid "f8c113ee-779b-4dfb-9293-76534a73e952")
 	)
-	(label "PWM A"
+	(label "PWM_A_1"
 		(at 40.64 95.25 0)
 		(effects
 			(font
@@ -3231,7 +3330,7 @@
 		)
 		(uuid "01e1d18e-b23b-4ac5-80e0-3eaf3aca0860")
 	)
-	(label "DRIVER IN1"
+	(label "DRIVER_IN1_1"
 		(at 40.64 90.17 0)
 		(effects
 			(font
@@ -3241,7 +3340,7 @@
 		)
 		(uuid "05ba21fe-df90-4f70-9b07-7f6c2f5a395b")
 	)
-	(label "DRIVER IN3"
+	(label "unconnected-(U4-IN3-Pad10)"
 		(at 40.64 100.33 0)
 		(effects
 			(font
@@ -3251,7 +3350,7 @@
 		)
 		(uuid "2d5b7a36-d7b2-49ee-a757-2480e65cbb8a")
 	)
-	(label "ENC B"
+	(label "ENC_B_1"
 		(at 55.88 43.18 0)
 		(effects
 			(font
@@ -3261,7 +3360,7 @@
 		)
 		(uuid "35658dd9-1f8f-413f-9950-fa82a90ae8e4")
 	)
-	(label "ENC A"
+	(label "ENC_A_1"
 		(at 21.59 43.18 0)
 		(effects
 			(font
@@ -3271,7 +3370,7 @@
 		)
 		(uuid "385365ac-a4f0-4c00-8657-866a2ba84cf2")
 	)
-	(label "DRIVER IN4"
+	(label "unconnected-(U4-IN4-Pad12)"
 		(at 40.64 102.87 0)
 		(effects
 			(font
@@ -3281,7 +3380,7 @@
 		)
 		(uuid "3b51b109-03a0-4d4d-a282-6cf8551dc7e2")
 	)
-	(label "PWM A"
+	(label "PWM_A_1"
 		(at 55.88 35.56 0)
 		(effects
 			(font
@@ -3291,7 +3390,7 @@
 		)
 		(uuid "50916730-7e25-4d5e-963e-354a266c44b9")
 	)
-	(label "DRIVER IN1"
+	(label "DRIVER_IN1_1"
 		(at 55.88 30.48 0)
 		(effects
 			(font
@@ -3301,7 +3400,7 @@
 		)
 		(uuid "613730e1-23a3-47db-a223-c3fc4076dc7d")
 	)
-	(label "DRIVER IN3"
+	(label "unconnected-(J7-Pin_8-Pad8)"
 		(at 55.88 38.1 0)
 		(effects
 			(font
@@ -3311,7 +3410,7 @@
 		)
 		(uuid "73a0e37a-2bc0-4753-a58d-115cb8779e7e")
 	)
-	(label "DRIVER IN2"
+	(label "DRIVER_IN2_1"
 		(at 55.88 33.02 0)
 		(effects
 			(font
@@ -3321,7 +3420,7 @@
 		)
 		(uuid "7b00e145-83cc-4e82-b901-ebae52cb499f")
 	)
-	(label "ENC A"
+	(label "ENC_A_1"
 		(at 114.3 34.29 0)
 		(effects
 			(font
@@ -3331,7 +3430,7 @@
 		)
 		(uuid "82b92e0f-7689-46ce-b22b-4e14be6835db")
 	)
-	(label "DRIVER IN2"
+	(label "DRIVER_IN2_1"
 		(at 40.64 92.71 0)
 		(effects
 			(font
@@ -3341,7 +3440,7 @@
 		)
 		(uuid "8be596e6-6c59-41e5-8c8d-818b79e893e7")
 	)
-	(label "ENC B"
+	(label "ENC_B_1"
 		(at 114.3 39.37 0)
 		(effects
 			(font
@@ -3351,7 +3450,7 @@
 		)
 		(uuid "aedeb41a-acaa-441e-8dc0-ef18861cc33a")
 	)
-	(label "DRIVER IN4"
+	(label "unconnected-(J7-Pin_10-Pad10)"
 		(at 55.88 40.64 0)
 		(effects
 			(font
@@ -3394,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 129.032 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -3417,6 +3516,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 130.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3471,7 +3581,7 @@
 				)
 			)
 		)
-		(property "Value" "Vcc"
+		(property "Value" "Vcc_2"
 			(at 82.55 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3653,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18dd77c4-bf5e-48db-bf6b-ef40684dca9e")
 		(property "Reference" "#PWR045"
 			(at 40.64 35.56 0)
@@ -3556,15 +3665,14 @@
 				)
 			)
 		)
-		(property "Value" "Vdd"
-			(at 33.02 35.5599 90)
+		(property "Value" "Vdd_2"
+			(at 30.734 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3652,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 102.87 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3697,6 +3805,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 102.87 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3761,7 +3880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3816,6 +3935,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 93.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57cd7970-08e2-4dc9-ab37-18a1f2c239a2")
 		)
@@ -3847,7 +3977,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27c55132-df37-40a3-b035-7a762847148c")
 		(property "Reference" "#PWR047"
 			(at 30.48 38.1 0)
@@ -3860,15 +3989,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 38.0999 90)
+		(property "Value" "GND_2"
+			(at 30.48 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3990,6 +4118,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
+			(at 68.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "7404dc29-b2cf-4824-8dd3-7fe8fdd9736e")
 		)
@@ -4083,7 +4222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4138,6 +4277,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4043d449-8ff2-4103-8796-dda4c9a3f577")
 		)
@@ -4181,7 +4331,7 @@
 				)
 			)
 		)
-		(property "Value" "CPU_GND"
+		(property "Value" "CPU_GND_2"
 			(at 111.76 36.322 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 46.6852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4309,6 +4459,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 45.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c0e821a-bd7f-412f-b28c-01279faaca3a")
 		)
@@ -4325,6 +4486,93 @@
 			(project "motor_i_enkoder"
 				(path "/f6c425e1-1202-403a-875c-a31152ac0674"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bba102c-2ac3-4b28-adcf-d6a3e3fdf785")
+		(property "Reference" "H9"
+			(at 163.83 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 161.29 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 161.29 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/1f242d25-3f72-47fa-ab49-33cac50f3366"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 53.0352 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4397,6 +4645,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 52.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d97aa73f-2ae2-4239-8868-3303e841077d")
 		)
@@ -4413,6 +4672,93 @@
 			(project "motor_i_enkoder"
 				(path "/f6c425e1-1202-403a-875c-a31152ac0674"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e5d06da-6b2b-45ca-92e1-d2af295134a8")
+		(property "Reference" "H12"
+			(at 163.83 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 161.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 161.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/1f242d25-3f72-47fa-ab49-33cac50f3366"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -4451,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 125.222 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -4474,6 +4820,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 127 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4570,6 +4927,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 43.18 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "43ae68cc-e554-4d6d-a077-e47f60119fe5")
 		)
@@ -4644,7 +5012,7 @@
 				)
 			)
 		)
-		(property "Value" "Vdd"
+		(property "Value" "Vdd_2"
 			(at 144.78 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,6 +5075,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91062de8-e879-4561-9195-a94523260f14")
+		(property "Reference" "H11"
+			(at 163.83 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 161.29 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 161.29 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/1f242d25-3f72-47fa-ab49-33cac50f3366"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 35.56 40.64 270)
 		(unit 1)
@@ -4728,8 +5183,8 @@
 				)
 			)
 		)
-		(property "Value" "CPU_GND"
-			(at 33.02 40.132 90)
+		(property "Value" "CPU_GND_2"
+			(at 32.766 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4823,7 +5278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 102.87 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4878,6 +5333,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 102.87 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "02406336-bb5b-45cf-aee5-e3e971431af5")
 		)
@@ -4909,7 +5375,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aca3a4c4-c603-4ef5-a967-61242b7a9f7f")
 		(property "Reference" "#PWR052"
 			(at 52.07 87.63 0)
@@ -4922,14 +5387,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 85.09 0)
+		(property "Value" "GND_2"
+			(at 49.53 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5006,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Value" "Vdd"
+		(property "Value" "Vdd_2"
 			(at 144.78 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +5544,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b16b29e8-ac17-451f-8707-ca6437b79fb0")
 		(property "Reference" "#PWR053"
 			(at 68.58 130.81 0)
@@ -5091,14 +5556,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 68.58 128.27 0)
+		(property "Value" "GND_2"
+			(at 65.532 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5175,15 +5641,14 @@
 				)
 			)
 		)
-		(property "Value" "12V"
-			(at 29.21 72.3899 90)
+		(property "Value" "12V_2"
+			(at 31.75 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5263,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5286,6 +5751,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 40.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5384,6 +5860,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "terminal_block/Metz_Connect"
+			(at 134.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d0b5df0-b8e8-480f-94bd-ebdf930fe3a0")
 		)
@@ -5400,6 +5887,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e442510e-55b6-42cd-80d7-c949f9a42766")
+		(property "Reference" "H10"
+			(at 163.83 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 161.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 161.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/1f242d25-3f72-47fa-ab49-33cac50f3366"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 36.83 33.02 90)
 		(unit 1)
@@ -5409,7 +5983,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1ecd26a-0d79-4c0d-87b6-5e3483f532f9")
 		(property "Reference" "#PWR044"
 			(at 40.64 33.02 0)
@@ -5422,8 +5995,8 @@
 				)
 			)
 		)
-		(property "Value" "Vcc"
-			(at 33.02 33.0199 90)
+		(property "Value" "Vcc_2"
+			(at 33.528 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5506,7 +6079,7 @@
 				)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "12V_2"
 			(at 31.496 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,7 +6150,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd084e78-ca29-4cb7-bf65-4e631b64e4e0")
 		(property "Reference" "#PWR051"
 			(at 45.72 87.63 0)
@@ -5590,14 +6162,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 85.09 0)
+		(property "Value" "GND_2"
+			(at 42.672 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
