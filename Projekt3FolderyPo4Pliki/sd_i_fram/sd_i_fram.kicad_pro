@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "smiw_proj.kicad_pro",
+    "filename": "sd_i_fram.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -589,7 +589,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -627,36 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "smiw_proj.kicad_sch",
-        "name": "smiw_proj",
-        "uuid": "8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
-      },
-      {
         "filename": "sd_i_fram.kicad_sch",
         "name": "sd_i_fram",
-        "uuid": "b984033f-847c-449b-8f32-a23b51039886"
-      },
-      {
-        "filename": "motor_i_enkoder.kicad_sch",
-        "name": "motor_i_enkoder",
-        "uuid": "1f242d25-3f72-47fa-ab49-33cac50f3366"
+        "uuid": "37281f2f-a2cb-40fa-aa8d-67b98bf89d1b"
       }
     ],
-    "used_designators": "R11",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "8fb2202e-c9a0-482b-8823-f82b9d12ce5a",
-      "smiw_proj"
-    ],
-    [
-      "b984033f-847c-449b-8f32-a23b51039886",
+      "37281f2f-a2cb-40fa-aa8d-67b98bf89d1b",
       "sd_i_fram"
-    ],
-    [
-      "1f242d25-3f72-47fa-ab49-33cac50f3366",
-      "motor_i_enkoder"
     ]
   ],
   "text_variables": {},
